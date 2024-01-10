@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T13:24:23.223Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="a1o4P9QivR62SxEev-oD" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-10T13:26:39.828Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="yBkmByJfN2oG07yykWJU" version="22.1.18" type="github">
   <diagram name="第 1 页" id="t-X-tSpNqa5irJSj03NE">
     <mxGraphModel dx="832" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,20 +47,35 @@
         <mxCell id="2HleCVqjv8virS_vFi-X-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2HleCVqjv8virS_vFi-X-11" target="2HleCVqjv8virS_vFi-X-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2HleCVqjv8virS_vFi-X-26" value="基本只有XML配置走" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2HleCVqjv8virS_vFi-X-15">
+          <mxGeometry x="0.855" y="-1" relative="1" as="geometry">
+            <mxPoint x="-43" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2HleCVqjv8virS_vFi-X-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2HleCVqjv8virS_vFi-X-11" target="2HleCVqjv8virS_vFi-X-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2HleCVqjv8virS_vFi-X-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2HleCVqjv8virS_vFi-X-11" target="2HleCVqjv8virS_vFi-X-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2HleCVqjv8virS_vFi-X-28" value="@AutoWired注解走" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2HleCVqjv8virS_vFi-X-23">
+          <mxGeometry x="0.5873" y="-2" relative="1" as="geometry">
+            <mxPoint x="-20" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2HleCVqjv8virS_vFi-X-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2HleCVqjv8virS_vFi-X-11" target="2HleCVqjv8virS_vFi-X-24">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2HleCVqjv8virS_vFi-X-29" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10px;&quot;&gt;BeanDefinition&lt;span style=&quot;color:#8c8c8c;font-style:italic;font-family:&#39;Courier New&#39;,monospace;&quot;&gt;中设置了&lt;/span&gt;&lt;span style=&quot;color:#8c8c8c;font-style:italic;&quot;&gt;PropertyValues&lt;/span&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2HleCVqjv8virS_vFi-X-25">
+          <mxGeometry x="0.7663" y="-2" relative="1" as="geometry">
+            <mxPoint x="-61" y="-2" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="2HleCVqjv8virS_vFi-X-11" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; color=&quot;#080808&quot;&gt;AbstractAutowireCapableBeanFactory&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;populateBean&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="471.26" width="215" height="58.75" as="geometry" />
         </mxCell>
         <mxCell id="2HleCVqjv8virS_vFi-X-14" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; color=&quot;#080808&quot;&gt;AbstractAutowireCapableBeanFactory&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;autowireByName()&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="200" width="215" height="58.75" as="geometry" />
+          <mxGeometry x="1380" y="210" width="215" height="58.75" as="geometry" />
         </mxCell>
         <mxCell id="2HleCVqjv8virS_vFi-X-16" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; color=&quot;#080808&quot;&gt;AbstractAutowireCapableBeanFactory&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;autowireByType()&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1380" y="370" width="215" height="58.75" as="geometry" />
@@ -70,6 +85,9 @@
         </mxCell>
         <mxCell id="2HleCVqjv8virS_vFi-X-24" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; color=&quot;#080808&quot;&gt;AbstractAutowireCapableBeanFactory&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;applyPropertyValues&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1380" y="690" width="215" height="58.75" as="geometry" />
+        </mxCell>
+        <mxCell id="2HleCVqjv8virS_vFi-X-27" value="基本只有XML配置走" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1319.7004319281255" y="399.3768694719405" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
